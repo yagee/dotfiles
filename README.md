@@ -1,19 +1,7 @@
-# dotfiles for macOS
+# dotfiles
 
-## Clone
-
-```sh
-git clone git@github.com:yagee/dotfiles.git && cd dotfiles
-```
-
-## Change permissions
+## One-liner
 
 ```sh
-chmod +x macos.sh
-```
-
-## Run
-
-```sh
-./macos.sh
+git clone git@github.com:yagee/dotfiles.git && cd dotfiles && chmod +x macos.sh && ./macos.sh
 ```
