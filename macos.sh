@@ -111,7 +111,8 @@ brew install mas \
   totp-cli \
   ffmpeg \
   yt-dlp \
-  languagetool
+  languagetool \
+  pnpm
 
 mas install 1263070803 # lungo
 mas install 1451685025 # wireguard
