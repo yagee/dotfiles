@@ -103,13 +103,15 @@ brew install --cask visual-studio-code \
   meld \
   vnc-viewer \
   discord \
-  transmission
+  transmission \
+  languagetool
 
 brew install mas \
   openconnect \
   totp-cli \
   ffmpeg \
-  yt-dlp
+  yt-dlp \
+  languagetool
 
 mas install 1263070803 # lungo
 mas install 1451685025 # wireguard
