@@ -143,6 +143,7 @@ echo 'alias zc="code . ~/.zshrc"' >> ~/.zshrc
 echo 'alias reload="source ~/.zshrc"' >> ~/.zshrc
 echo 'alias o="open ."' >> ~/.zshrc
 echo 'alias v="code ."' >> ~/.zshrc
+echo 'alias pnpx="pnpm dlx"' >> ~/.zshrc
 
 # Dockutil
 echo 'Check this issue: https://github.com/kcrawford/dockutil/issues/127#issuecomment-1118733013'
