@@ -104,7 +104,8 @@ brew install --cask visual-studio-code \
   vnc-viewer \
   discord \
   transmission \
-  languagetool
+  languagetool \
+  mongodb-compass
 
 brew install mas \
   openconnect \
