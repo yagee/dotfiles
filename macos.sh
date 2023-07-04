@@ -169,6 +169,7 @@ dockutil --remove Launchpad
 dockutil --remove Keynote
 dockutil --remove Numbers
 dockutil --remove Pages
+dockutil --remove Freeform
 
 dockutil --add /Applications/Visual\ Studio\ Code.app
 dockutil --add /Applications/Warp.app
