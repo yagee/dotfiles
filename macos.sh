@@ -113,7 +113,8 @@ brew install mas \
   ffmpeg \
   yt-dlp \
   languagetool \
-  pnpm
+  pnpm \
+  telnet
 
 mas install 1263070803 # lungo
 mas install 1451685025 # wireguard
