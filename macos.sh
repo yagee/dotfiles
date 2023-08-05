@@ -85,7 +85,8 @@ killall Dock
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install apps using Homebrew
-brew install --cask visual-studio-code \
+brew install --cask \
+  visual-studio-code \
   warp \
   telegram-desktop \
   google-chrome \
@@ -105,7 +106,8 @@ brew install --cask visual-studio-code \
   discord \
   transmission \
   languagetool \
-  mongodb-compass
+  mongodb-compass \
+  arc
 
 brew install mas \
   openconnect \
@@ -180,6 +182,7 @@ dockutil --add /Applications/Warp.app
 dockutil --add /Applications/Google\ Chrome.app --position 1
 dockutil --add /Applications/Telegram\ Desktop.app --position 3
 dockutil --add '' --type spacer --section apps --after Safari
+dockutil --add /Applications/Arc.app --position 3
 
 # Git
 echo '.DS_Store' >> ~/.config/git/ignore
