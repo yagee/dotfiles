@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Finder
-# Show hidden files
-defaults write com.apple.finder AppleShowAllFiles -bool true
+# Show hidden files and folders
+defaults write com.apple.finder "AppleShowAllFiles" -bool true
 
 # Show file extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -36,9 +36,6 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "clmv"
 # Search in current folder by default
 defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf"
 
-# Show hidden files and folders
-defaults write com.apple.finder "AppleShowAllFiles" -bool true
-
 # Left click
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
@@ -46,6 +43,9 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Start new Finder windows in the Downloads folder
 defaults write com.apple.finder NewWindowTarget PfLo
+
+# Disable auto rearrange spaces (desktops)
+defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock
 
 # Restart Finder
 killall Finder
