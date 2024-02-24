@@ -87,6 +87,7 @@ killall Dock
 # Install apps using Homebrew
 brew install --cask \
   visual-studio-code \
+  zed \
   warp \
   telegram-desktop \
   google-chrome \
