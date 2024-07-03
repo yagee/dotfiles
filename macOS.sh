@@ -123,12 +123,8 @@ mas install 1263070803 # lungo
 mas install 1451685025 # wireguard
 mas install 1356178125 # outline client
 mas install 6448461551 # command x (ctrl + x)
-mas install 411643860 # daisydisk
-mas install 497799835 # xcode
-
-# Rclone
-# Install Rclone
-sudo -v ; curl https://rclone.org/install.sh | sudo bash
+mas install 411643860  # daisydisk
+mas install 497799835  # xcode
 
 # ZSH
 # Install Oh My Zsh
